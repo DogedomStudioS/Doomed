@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://imp.tscn" type="PackedScene" id=2]
+
+[node name="world" type="Spatial"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+
+[node name="imp" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.0089, 0, -26.7569 )
+
+[node name="imp2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.177, 0, -26.7569 )
+
+[node name="imp3" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.17984, 0, -17.4117 )
+
+[node name="imp4" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.85759, 0, -39.8647 )
